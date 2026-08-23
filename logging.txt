@@ -1,0 +1,15 @@
+Your Conversation Log:
+You: What is my name?
+AI: As an AI, I don't have access to personal information about you, so I don't know your name.
+
+If you'd like to tell me, I'll be happy to refer to you by it!
+
+You: My name is Emad Salib
+AI: Okay, it's nice to meet you, Emad Salib!
+
+I'll remember that your name is Emad. How can I help you today, Emad?
+
+You: What is my name?
+AI: Your name is Emad Salib.
+
+End of Conversation
