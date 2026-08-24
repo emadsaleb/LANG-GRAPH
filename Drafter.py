@@ -77,11 +77,8 @@ def our_agent(state: AgentState) -> AgentState:
     response = model.invoke(all_messages)
 
     print(f"\n🤖 AI: {response.content}")
-    if hasattr(response, "tool_calls") and response.tool_calls:
-        print(f"🔧 USING TOOLS: {[tc['name'] for tc in response.tool_calls]}")
 
-    return {"messages": list(state["messages"]) + [user_message, response]}
-
+    
 
 def should_continue(state: AgentState) -> str:
     """Determine if we should continue or end the conversation."""
